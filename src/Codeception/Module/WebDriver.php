@@ -96,7 +96,7 @@ use PHPUnit\Framework\SelfDescribing;
  *          url: 'http://localhost/'
  *          browser: chrome
  *          capabilities:
- *             chromeOptions:
+ *             "goog:chromeOptions":
  *                args: ["--headless", "--disable-gpu"]
  * ```
  *
@@ -131,7 +131,7 @@ use PHPUnit\Framework\SelfDescribing;
  *          window_size: 2000x1000
  *          port: 9515
  *          capabilities:
- *              chromeOptions:
+ *              "goog:chromeOptions":
  *                  args: ["--headless", "--disable-gpu"] # Run Chrome in headless mode
  *                  prefs:
  *                      download.default_directory: "..."
